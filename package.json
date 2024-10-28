@@ -1,6 +1,6 @@
 {
 	"name": "@webhandle/file-in-input",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "client-lib/upcast-html.mjs",
 	"scripts": {
 		"test": "node_modules/mocha/bin/mocha",

@@ -37,7 +37,7 @@ import upcastFileSelectors from '@webhandle/file-in-input'
 upcastFileSelectors()
 ```
 
-By default, this will select all elements like `input[data-file-dir]`. `data-file-dir` will also be
+By default, this will select all elements like `input.file-input-field`. `data-file-dir` will also be
 used as the starting location within the browsed file tree. (It can be the empty string.)
 
 

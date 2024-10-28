@@ -3,7 +3,7 @@
 import FileInInputView from './file-in-input-view.mjs'
 
 export default function upcast({
-	selector = 'input[data-file-dir]'
+	selector = 'input.file-input-field'
 	, sink = window.webhandle.sinks.public
 } = {}) {
 	let fileInputs = document.querySelectorAll(selector)

@@ -3,11 +3,11 @@ __::start__
 	<form method="post" action="/test-file-post">
 		<label>
 			Parts documentation file
-			<input type="text" name="partsDocumentation" data-file-dir="/js" />
+			<input type="text" class="file-input-field" name="partsDocumentation" data-file-dir="/js" />
 		</label>
 		<label>
 			Cost sheet
-			<input type="text" name="costSheet" value="/js/pages.js" data-file-dir="/js" />
+			<input type="text" class="file-input-field" name="costSheet" value="/js/pages.js" data-file-dir="/js" />
 		</label>
 		<br>
 		<br>
