@@ -85,9 +85,6 @@ export default class FileInInputView extends View {
 		if (result && result.url) {
 			this.input.value = result.url
 		}
-		else {
-			this.input.value = ''
-		}
 
 		this.renderValue()
 		this.setupButtonStyles()

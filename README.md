@@ -55,6 +55,6 @@ is rendered.
 It would work without styling, but looks better with.
 
 ```less
-import "node_modules/@webhandle/file-in-input/less/components.less"
+@import "node_modules/@webhandle/file-in-input/less/components.less;"
 
 ```
