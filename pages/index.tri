@@ -1,0 +1,18 @@
+__::start__
+<div class="page page-landing">
+	<form method="post" action="/test-file-post">
+		<label>
+			Parts documentation file
+			<input type="text" name="partsDocumentation" data-file-dir="/js" />
+		</label>
+		<label>
+			Cost sheet
+			<input type="text" name="costSheet" value="/js/pages.js" data-file-dir="/js" />
+		</label>
+		<br>
+		<br>
+		<br>
+		<button type="submit">Submit</button>
+	</form>
+</div>
+__::end__
